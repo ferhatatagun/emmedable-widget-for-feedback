@@ -1,6 +1,10 @@
 {
   "name": "emmedableWidgetForFeedback",
   "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ferhatatagun/emmedable-widget-for-feedback"
+  },
   "main": "index.js",
   "license": "MIT",
   "scripts": {
