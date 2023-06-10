@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <link rel="stylesheet" href="./assets/css/style.scss">
+</head>
+
+<body>
+    <script 
+      id="feedbackWidget" 
+      feedback-id="a7d0c7dc-a1e4-48a1-8a99-745f139cafda" 
+      dark-mode="false" 
+      display-position="center"
+      location-situation="right"
+      src="./app.js"> </script>
+
+    <div class="beavers--questionnaire__modal--base">
+        <div class="beavers--questionnaire__modal">
+            <a id="closeModalBtn" title="Close feedback form" aria-label="Close feedback form" class="modal--close" href="javascript:;"></a>
+            <div class="modal--content"> 
+                <div class="modal--content_area">
+                    <div class="modal--content_title-area">
+                        <div class="modal--content_title">
+                            <h1>Your feedback</h1>
+                        </div>
+                    </div>
+                    <div class="modal--content__type is-type--incoming" data-areas="feedback_polls">
+                        <div class="modal--content__polls">
+                            <ul class="feedback" data-items="poll-answers">
+                                <li pool-value="0" class="angry">
+                                    <div>
+                                        <svg class="eye left">
+                                            <use xlink:href="#eye">
+                                        </svg>
+                                        <svg class="eye right">
+                                            <use xlink:href="#eye">
+                                        </svg>
+                                        <svg class="mouth">
+                                            <use xlink:href="#mouth">
+                                        </svg>
+                                    </div>
+                                    <span class="additional_text"> Awful </span>
+                                </li>
+                                <li pool-value="1" class="sad">
+                                    <div>
+                                        <svg class="eye left">
+                                            <use xlink:href="#eye">
+                                        </svg>
+                                        <svg class="eye right">
+                                            <use xlink:href="#eye">
+                                        </svg>
+                                        <svg class="mouth">
+                                            <use xlink:href="#mouth">
+                                        </svg>
+                                    </div>
+                                    <span class="additional_text">Bad</span>
+                                </li>
+                                <li pool-value="2" class="ok active">
+                                    <div></div>
+                                    <span class="additional_text">Okay</span>
+                                </li>
+                                <li pool-value="3" class="good">
+                                    <div>
+                                        <svg class="eye left">
+                                            <use xlink:href="#eye">
+                                        </svg>
+                                        <svg class="eye right">
+                                            <use xlink:href="#eye">
+                                        </svg>
+                                        <svg class="mouth">
+                                            <use xlink:href="#mouth">
+                                        </svg>
+                                    </div>
+                                    <span class="additional_text"> Good </span>
+                                </li>
+                                <li pool-value="4" class="happy">
+                                    <div>
+                                        <svg class="eye left">
+                                            <use xlink:href="#eye">
+                                        </svg>
+                                        <svg class="eye right">
+                                            <use xlink:href="#eye">
+                                        </svg>
+                                    </div>
+                                    <span class="additional_text"> Great </span>
+                                </li>
+                                <li pool-value="5" class="great" style="display: none;">
+                                    <div>
+                                        <svg class="eye left" fill="red">
+                                            <use xlink:href="#heart">
+                                        </svg>
+                                        <svg class="eye right" fill="red">
+                                            <use xlink:href="#heart">
+                                        </svg>
+                                    </div>
+                                </li>
+                            </ul>
+                            <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+                                <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 7 4" id="eye">
+                                    <path d="M1,1 C1.83333333,2.16666667 2.66666667,2.75 3.5,2.75 C4.33333333,2.75 5.16666667,2.16666667 6,1"></path>
+                                </symbol>
+                                <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 7" id="mouth">
+                                    <path d="M1,5.5 C3.66666667,2.5 6.33333333,1 9,1 C11.6666667,1 14.3333333,2.5 17,5.5"></path>
+                                </symbol>
+                                <symbol id="heart" viewBox="-5 -5 43 34.6">
+                                    <path d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2 c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0" />
+                                </symbol>
+                            </svg>
+                        </div>
+                        <div class="modal--content__questions">
+                            <legend class="block-title" id="poll-textarea">
+                                <label for="poll-textarea">Incoming - Follow up Question</label>
+                            </legend>
+                            <textarea placeholder="Please give your feedback question answer" id="poll-textarea"></textarea>
+                        </div>
+                        <div class="modal--content__email">
+                            <legend class="block-title" id="poll-email">
+                                <label for="poll-email">If you'd like us to contact you regarding your feedback, please provide your contact details here.</label>
+                            </legend>
+                            <input placeholder="E-mail" type="email" id="poll-email" />
+                        </div>
+                        <div class="modal--content__thanks">
+                            <svg viewBox="0 0 28 28"><path d="M26.109 8.844c0 0.391-0.156 0.781-0.438 1.062l-13.438 13.438c-0.281 0.281-0.672 0.438-1.062 0.438s-0.781-0.156-1.062-0.438l-7.781-7.781c-0.281-0.281-0.438-0.672-0.438-1.062s0.156-0.781 0.438-1.062l2.125-2.125c0.281-0.281 0.672-0.438 1.062-0.438s0.781 0.156 1.062 0.438l4.594 4.609 10.25-10.266c0.281-0.281 0.672-0.438 1.062-0.438s0.781 0.156 1.062 0.438l2.125 2.125c0.281 0.281 0.438 0.672 0.438 1.062z" fill="currentColor"></path></svg>
+                            <p>Thank you for submitting your feedback.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+    </div>
+</body>
+
+</html>

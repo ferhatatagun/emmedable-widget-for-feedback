@@ -1,0 +1,11 @@
+# Node.js dependencies
+/node_modules
+
+# Parcel cache
+.cache
+
+# Compiled output
+/dist
+
+# Sass cache
+/.sass-cache

@@ -1,0 +1,254 @@
+:root {
+    --blue: #1e90ff;
+    --white: #ffffff;
+    --open-survey--box-shadow-12: 0 0 0/12%;
+    --open-survey--box-shadow-14: 0 0 0/14%;
+    --open-survey--box-shadow-20: 0 0 0/20%;
+}
+
+button,
+select {
+    text-transform: none;
+}
+
+button {
+    overflow: visible;
+}
+
+button,
+input,
+select,
+textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+body.beavers--questionnaire__modal-active {
+    overflow: hidden !important;
+}
+
+html .beavers--questionnaire {
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell,
+        "Helvetica Neue", sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    outline: 0;
+    position: relative;
+    margin: 0;
+    overflow: hidden;
+    text-transform: initial;
+    letter-spacing: normal;
+    text-align: left;
+}
+
+.beavers--questionnaire *,
+.beavers--questionnaire :after,
+.beavers--questionnaire :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+.beavers--questionnaire a,
+.beavers--questionnaire div,
+.beavers--questionnaire form,
+.beavers--questionnaire img,
+.beavers--questionnaire input,
+.beavers--questionnaire label,
+.beavers--questionnaire p,
+.beavers--questionnaire span,
+.beavers--questionnaire strong {
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    line-height: initial;
+    vertical-align: baseline;
+    background: 0 0;
+    margin: 0;
+    padding: 0;
+    float: none;
+    width: auto;
+}
+
+.beavers--questionnaire button {
+    background: 0 0;
+    float: none;
+}
+
+.beavers--questionnaire a,
+.beavers--questionnaire input + label {
+    cursor: pointer;
+}
+
+.beavers--questionnaire h1,
+.beavers--questionnaire h2,
+.beavers--questionnaire h3,
+.beavers--questionnaire h4,
+.beavers--questionnaire h5,
+.beavers--questionnaire h6 {
+    margin: 10px 0 20px;
+    font-family: inherit;
+    color: inherit;
+    text-rendering: optimizelegibility;
+    font-weight: bold;
+    font-weight: 600;
+}
+
+legend {
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0 0 8px;
+    font-size: inherit;
+    line-height: inherit;
+    color: inherit;
+    border: 0;
+    position: relative;
+}
+
+textarea {
+    vertical-align: top;
+}
+
+.beavers--questionnaire__modal--base {
+    button,
+    input,
+    select,
+    textarea {
+        margin: 0;
+        font-size: inherit;
+        vertical-align: middle;
+    }
+
+    select {
+        display: inline-block;
+        height: 40px;
+        margin: 0;
+        font-size: 1em;
+        font-family: inherit;
+        line-height: inherit;
+        color: inherit;
+        vertical-align: middle;
+        -webkit-border-radius: 2px;
+        border-radius: 3px;
+        -webkit-appearance: none;
+    }
+
+    input {
+        &[type="text"],
+        &[type="password"],
+        &[type="datetime"],
+        &[type="datetime-local"],
+        &[type="date"],
+        &[type="month"],
+        &[type="time"],
+        &[type="week"],
+        &[type="number"],
+        &[type="email"],
+        &[type="url"],
+        &[type="search"],
+        &[type="tel"],
+        &[type="color"] {
+            display: inline-block;
+            height: 40px;
+            padding: 6px 6px;
+            margin: 0;
+            font-size: 1em;
+            font-family: inherit;
+            line-height: inherit;
+            color: inherit;
+            vertical-align: middle;
+            border-radius: 3px;
+            appearance: none;
+            -webkit-appearance: none;
+        }
+    }
+
+    input {
+        &[type="text"],
+        &[type="password"],
+        &[type="datetime"],
+        &[type="datetime-local"],
+        &[type="date"],
+        &[type="month"],
+        &[type="time"],
+        &[type="week"],
+        &[type="number"],
+        &[type="email"],
+        &[type="url"],
+        &[type="search"],
+        &[type="tel"],
+        &[type="color"] {
+            background-color: #ffffff;
+            border: 1px solid #ddd;
+            -webkit-transition: border linear 0.2s, box-shadow linear 0.2s;
+            -moz-transition: border linear 0.2s, box-shadow linear 0.2s;
+            -o-transition: border linear 0.2s, box-shadow linear 0.2s;
+            transition: border linear 0.2s, box-shadow linear 0.2s;
+        }
+    }
+
+    textarea {
+        outline: none;
+        border: 1px solid #d6d6d6;
+        box-shadow: #9795a4 4px 2px 1px 1px;
+        font-size: 12px;
+        margin: 0px;
+        resize: vertical;
+        transition: all linear 0.2s, box-shadow linear 0.2s;
+
+        &:focus {
+            border-color: #9795a4;
+            box-shadow: #9795a4 2px 1px 1px 1px;
+        }
+        // -webkit-tap-highlight-color: transparent;
+        // width: 100%;
+        // min-height: 8rem;
+        // // padding: 1rem 1.5rem;
+        // font-size: 1rem;
+        // line-height: 2rem;
+        // font-weight: 300;
+        // background: #FFFFFF;
+        // border: none;
+        // border-radius: 1rem;
+        // outline: none;
+        // box-shadow: 18px 18px 30px #D1D9E9, -18px -18px 30px #FFFFFF;
+        // resize: vertical;
+        // transition: ease .2s;
+        // cursor: pointer;
+        // min-height: 60px;
+        // padding: 10px;
+        // margin-left: -10px;
+        // border: 1px solid #5a5a5a40;
+        // outline: none;
+        // border-radius: 10px;
+        // box-shadow: 18px 18px 30px #d1d9e9, -18px -18px 30px #ffffff;
+        // &::placeholder {
+        //   color: #9fa8da;
+        // }
+        // &:focus {
+        //   min-height: 12rem;
+        //   box-shadow: inset 18px 18px 30px #D1D9E9, inset -18px -18px 30px #FFFFFF;
+        // }
+    }
+}
+
+.beavers--questionnaire__modal {
+    input,
+    textarea {
+        border-radius: 10px;
+        outline: none;
+        width: auto;
+    }
+}
+
+.block-title {
+    font-size: 1em;
+    font-weight: 400;
+}
